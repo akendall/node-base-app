@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html ng-app="myapp">
+
+<head>
+    <title>Andrew Kendall</title>
+    <!-- Bootstrap CSS -->
+    <link href="css/app.css" rel="stylesheet">
+</head>
+
+<body class="container">
+  <div class="navbar">
+    <div class="navbar-inner">
+      <img class="hdr-img" ng-src="img/computerImg.png"/>
+      <span class="filler"></span>
+      <ul class="nav">
+        <li><a ui-sref="portfolio">Portfolio</a></li>
+        <li><a ui-sref="about">About</a></li>
+        <li><a ui-sref="interests">Interests</a></li>
+        <li><a ui-sref="projects">Projects</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="span12">
+      <div class="well" ui-view></div>
+    </div>
+  </div>
+
+  <!-- Angular -->
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.4/angular.js"></script>
+  <!-- UI-Router -->
+  <script src="//angular-ui.github.io/ui-router/release/angular-ui-router.js"></script>
+
+  <!-- App Script -->
+  <script src="js/app.js"></script>
+
+</body>
+
+</html>

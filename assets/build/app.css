@@ -1,0 +1,112 @@
+/* app css stylesheet */
+body{
+  margin: 0 15% 0 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.filler{
+  flex:1;
+  flex-basis: 0.000000001px;
+}
+
+.hdr-img{
+  width:75px;
+  height:75px;
+  padding-top: 15px;
+  justify-content:flex-start;
+}
+
+.navbar-inner{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  border-bottom-style: double;
+  border-bottom-color: lightgray;
+}
+
+.navbar-inner{
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.nav {
+  list-style: none;
+  margin-bottom: 15px;
+  padding: 0;
+  display: flex;
+  border-right-style: solid;
+  border-color: lightgray;
+  border-right-width: 1px;
+}
+
+.nav li {
+  display: flex;
+  margin-right: 5px;
+}
+
+.nav li a{
+  text-decoration: none;
+  color: black;
+  font: initial;
+  width: 150px;
+  border-color: lightgrey;
+  border-left-style: solid;
+  border-width: 1px;
+  text-align: center;
+  line-height: 70px;
+}
+
+/*.nav > li:before {
+  content: "|";
+  padding-right: 0.3em;
+}*/
+
+.nav > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
+
+@media (max-width: 1000px) {
+  .filler{
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .hdr-img {
+    display:none;
+  }
+}
+
+@media (max-width: 690px) {
+  body{
+    margin:0;
+  }
+}
+
+@media (max-width: 550px) {
+.navbar-inner{
+  border: none;
+}
+.nav {
+  flex-direction:column;
+  border:none;
+  width:100%;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: black;
+  font: initial;
+  border: none;
+  text-align: center;
+  line-height: 15px;
+  width:100%;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: lightgray;
+}
+}
