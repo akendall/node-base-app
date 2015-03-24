@@ -31,7 +31,6 @@
     "node": "0.10.x"
   },
   "devDependencies": {
-    "gulp": "~3.8.11",
     "webpack": "~1.7.2",
     "webpack-dev-server": "~1.7.0",
     "gulp-livereload": "~3.8.0",
