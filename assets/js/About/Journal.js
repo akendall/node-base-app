@@ -1,11 +1,11 @@
 (function() {
 'use strict';
 
-  var ngModule = angular.module("About", [
+  var ngModule = angular.module("Journal", [
   ]);
 
 
-  ngModule.service('AboutService', [
+  ngModule.service('JournalService', [
     '$http',
     '$q',
     '$window',
@@ -14,11 +14,11 @@
     }
   ]);
 
-  ngModule.controller('AboutController', [
+  ngModule.controller('JournalController', [
     '$rootScope',
     '$scope',
     '$location',
-    'AboutService',
+    'JournalService',
     '$window',
     function($rootScope, $scope, $location, $window) {
     }

@@ -47,5 +47,8 @@
     "heroku",
     "express"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "scripts":{
+    "postinstall":"bower install && gulp prod"
+  }
 }

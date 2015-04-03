@@ -8,32 +8,43 @@
 </head>
 
 <body class="container">
-  <div class="navbar">
-    <div class="navbar-inner">
+  <header class="navbar">
+    <nav class="navbar-inner">
       <img class="hdr-img" ng-src="img/computerImg.png"/>
       <span class="filler"></span>
       <ul class="nav">
-        <li><a ui-sref="portfolio">Portfolio</a></li>
-        <li><a ui-sref="about">About</a></li>
-        <li><a ui-sref="interests">Interests</a></li>
-        <li><a ui-sref="projects">Projects</a></li>
+        <li><a ui-sref="portfolio">PORTFOLIO
+          <div><span class="sub-label">EXAMPLES OF MY WORK</div></span></a></li>
+        <li><a ui-sref="journal">JOURNAL
+          <div><span class="sub-label">THOUGHTS, LINKS, LIKES & OTHER INTERESTS</div></span></a></li>
+        <li><a ui-sref="interests">Interests
+          <div><span class="sub-label">THINGS THAT I LOVE AND ENJOY</div></span></a></li>
+        <li><a ui-sref="projects">Projects
+          <div><span class="sub-label">CURRENT AND PAST WORK</div></span></a></li></a></li>
       </ul>
-    </div>
-  </div>
+    </nav>
+  </header>
 
-  <div class="row">
-    <div class="span12">
-      <div class="well" ui-view></div>
-    </div>
-  </div>
+  <ui-view></ui-view>
+
+  <footer class="footer">
+    <span> Contact Info: </span><br/>
+    <span> Name: Andrew Kendall </span><br/>
+    <span> Phone: (801) 358-3326 </span><br/>
+    <span> Email: kendall130@yahoo.com </span>
+  </footer>
 
   <!-- Angular -->
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.4/angular.js"></script>
   <!-- UI-Router -->
   <script src="//angular-ui.github.io/ui-router/release/angular-ui-router.js"></script>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular-animate.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular-touch.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.10.3/TweenMax.min.js"></script>
   <!-- App Script -->
   <script src="js/app.js"></script>
+  <script src="/build/components.min.js"></script>
+  <script src="/build/build.js"></script>
 
 </body>
 

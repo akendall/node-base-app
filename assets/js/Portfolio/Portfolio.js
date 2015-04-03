@@ -21,6 +21,7 @@
     'PortfolioService',
     '$window',
     function($rootScope, $scope, $location, AppAdminService, $window) {
+      $scope.quote = "WE ARE WHAT WE REPEATEDLY DO!";
     }
   ]);
 

@@ -3,11 +3,11 @@
 /*
 ** deps
 */
-// var c = require('../lib/casAdmin');
+// var c = require('../lib/myapp');
 
 var angularRoutes = [
   '/portfolio',
-  '/about',
+  '/journal',
   '/interests',
   '/projects',
 ];

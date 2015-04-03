@@ -61,12 +61,27 @@ gulp.task('styles', function () {
   .pipe(livereload());
 });
 
+gulp.task('stylesProd', function () {
+  gulp.src([
+    'assets/css/app.css'
+  ])
+  .pipe(stylus())
+  .pipe(gulp.dest('assets/build'))
+});
+
 gulp.task('componentStyles', function () {
   gulp.src([])
   .pipe(stylus())
   .pipe(gulp.dest("assets/components"))
   .pipe(livereload());
 });
+
+gulp.task('componentStylesProd', function () {
+  gulp.src([])
+  .pipe(stylus())
+  .pipe(gulp.dest("assets/components"))
+});
+
 
 gulp.task('watch', function() {
   livereload.listen();
@@ -76,4 +91,4 @@ gulp.task('watch', function() {
 });
 
 gulp.task('default', ['bower','scripts','bowerScripts','bowerStyles','styles','componentStyles','watch']);
-gulp.task('prod', ['bower','bowerScripts','bowerStyles','styles','componentStyles','scripts']);
+gulp.task('prod', ['bower','bowerScripts','bowerStyles','stylesProd','componentStylesProd','scripts']);

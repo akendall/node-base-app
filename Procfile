@@ -1,2 +1,2 @@
-web: supervisor --ignore assets,views app.js
+web: $WEB
 gulp: gulp

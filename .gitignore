@@ -1,2 +1,5 @@
 node_modules
 bower_components
+assets/build
+.DS_Store
+.env

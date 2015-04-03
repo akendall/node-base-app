@@ -1,11 +1,11 @@
 (function(){
   'use strict';
 
-  var routeControllers= [
+  var ngModule = angular.module('RouteControllers', [
     "PortfolioController",
-    "AboutController"
-  ];
-
-  var ngModule = angular.module('RouteControllers', routeControllers);
+    "JournalController",
+    "InterestController",
+    "ProjectController"
+  ]);
 
 })();
