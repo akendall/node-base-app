@@ -1,4 +1,7 @@
 /* app css stylesheet */
+body{
+  background-color: rgb(247, 247, 247);
+}
 .contact-info{
   border-bottom-style: double;
   border-bottom-color: lightgray;
@@ -9,6 +12,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: #FFFFFF;
+  border-radius: 10px 10px 10px 10px;
 }
 
 .container-inner{
@@ -113,6 +118,7 @@ body{
   display: flex;
   align-items: center;
   width: 100%;
+  background-color: rgb(247, 247, 247);
 }
 
 .nav {
@@ -123,12 +129,14 @@ body{
   border-right-style: solid;
   border-color: lightgray;
   border-right-width: 1px;
+  background-color: rgb(247, 247, 247);
 }
 
 .nav li {
   display: flex;
   margin-right: 5px;
-  box-shadow: 2px 2px 5px #888888;
+  box-shadow: 0px 8px 14px #888888;
+  border-radius: 10px 10px 10px 10px;
 }
 
 .nav li a{
@@ -142,6 +150,8 @@ body{
   text-align: start;
   line-height: 15px;
   padding: 20px;
+  background-color: #FFFFFF;
+  border-radius: 10px 10px 10px 10px;
 }
 
 /*.nav > li:before {
@@ -170,6 +180,7 @@ body{
   width: 100%;
   padding: 10px;
   margin-right: 30px;
+  border-radius: 10px 10px 10px 10px;
 }
 
 .quote{
@@ -177,6 +188,7 @@ body{
   margin-top: 20px;
   margin-bottom: 10px;
   text-align: center;
+  text-shadow: 3px 2px #888888;
 }
 
 .quote-container{
@@ -212,6 +224,7 @@ body{
   border-color: rgba(136, 136, 136, 0.4);
   border-bottom: solid 25px;
   border-top: solid 25px;
+  border-radius: 10px;
 }
 
 .slide {

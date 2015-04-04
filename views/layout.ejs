@@ -7,33 +7,34 @@
     <link href="css/app.css" rel="stylesheet">
 </head>
 
-<body class="container">
-  <header class="navbar">
-    <nav class="navbar-inner">
-      <img class="hdr-img" ng-src="img/computerImg.png"/>
-      <span class="filler"></span>
-      <ul class="nav">
-        <li><a ui-sref="portfolio">PORTFOLIO
-          <div><span class="sub-label">EXAMPLES OF MY WORK</div></span></a></li>
-        <li><a ui-sref="journal">JOURNAL
-          <div><span class="sub-label">THOUGHTS, LINKS, LIKES & OTHER INTERESTS</div></span></a></li>
-        <li><a ui-sref="interests">Interests
-          <div><span class="sub-label">THINGS THAT I LOVE AND ENJOY</div></span></a></li>
-        <li><a ui-sref="projects">Projects
-          <div><span class="sub-label">CURRENT AND PAST WORK</div></span></a></li></a></li>
-      </ul>
-    </nav>
-  </header>
+<body>
+  <section class="container">
+    <header class="navbar">
+      <nav class="navbar-inner">
+        <img class="hdr-img" ng-src="img/computerImg.png"/>
+        <span class="filler"></span>
+        <ul class="nav">
+          <li><a ui-sref="portfolio">PORTFOLIO
+            <div><span class="sub-label">EXAMPLES OF MY WORK</div></span></a></li>
+          <li><a ui-sref="journal">JOURNAL
+            <div><span class="sub-label">THOUGHTS, LINKS, LIKES & OTHER INTERESTS</div></span></a></li>
+          <li><a ui-sref="interests">Interests
+            <div><span class="sub-label">THINGS THAT I LOVE AND ENJOY</div></span></a></li>
+          <li><a ui-sref="projects">Projects
+            <div><span class="sub-label">CURRENT AND PAST WORK</div></span></a></li></a></li>
+        </ul>
+      </nav>
+    </header>
 
-  <ui-view></ui-view>
+    <ui-view></ui-view>
 
-  <footer class="footer">
-    <span> Contact Info: </span><br/>
-    <span> Name: Andrew Kendall </span><br/>
-    <span> Phone: (801) 358-3326 </span><br/>
-    <span> Email: kendall130@yahoo.com </span>
-  </footer>
-
+    <footer class="footer">
+      <span> Contact Info: </span><br/>
+      <span> Name: Andrew Kendall </span><br/>
+      <span> Phone: (801) 358-3326 </span><br/>
+      <span> Email: kendall130@yahoo.com </span>
+    </footer>
+  </section>
   <!-- Angular -->
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.4/angular.js"></script>
   <!-- UI-Router -->
