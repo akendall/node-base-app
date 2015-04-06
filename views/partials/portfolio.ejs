@@ -4,8 +4,6 @@
     <span class="author-quote">{{author}}</span>
   </div>
   <div class="info">
-    <ul class="profile">
-      <li><h5>INTRO:</h5><a>{{seller}}</a></li>
-    </ul>
+    <item label="{{item.label}}" information="{{item.information}}" ng-repeat="item in info"></item>
   </div>
 </div>

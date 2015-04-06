@@ -1,10 +1,13 @@
 (function(){
   'use strict';
 
-  var app = angular.module('myapp', [
+  var deps = [
     "ui.router",
-    "RouteControllers"
-  ]).config([
+    "RouteControllers",
+    "AppComponents"
+  ]
+
+  var app = angular.module('myapp', deps).config([
     '$locationProvider',
     '$stateProvider',
     '$urlRouterProvider',
