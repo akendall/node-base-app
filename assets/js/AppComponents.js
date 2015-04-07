@@ -2,7 +2,7 @@
   'use strict';
 
   var components= [
-    // "ListComponent",
+    "LinkItemComponent",
     "ItemComponent"
   ];
 

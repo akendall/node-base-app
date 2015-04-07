@@ -99,13 +99,44 @@ h3{
   margin-bottom: 15px;
   padding: 0;
   display: flex;
+  flex-direction:column;
+  justify-content:center;
   border-bottom-style: solid;
   border-color: lightgray;
   border-bottom-width: 1px;
-  display: flex;
   margin-right: 5px;
   /* box-shadow: 2px 2px 5px #888888; */
   padding: 20px;
+}
+
+.link{
+  text-decoration: none;
+  color: black;
+  line-height:22px;
+  -webkit-transition: line-height .25s linear; /* For Safari 3.1 to 6.0 */
+  transition: line-height .25s linear;
+}
+
+.link:hover{
+  font-size:18px;
+  line-height:30px;
+}
+
+.link-item {
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  opacity : 0;
+  max-height: 10px;
+  line-height:22px;
+  font-size:16px;
+  -webkit-transition: max-height 2s, opacity.25s, 2s linear; /* For Safari 3.1 to 6.0 */
+  transition: max-height 2s, opacity.25s, 2s linear;
+}
+
+.link-item:hover {
+  opacity : 1;
+  max-height: 200px;
 }
 
 .list{
@@ -345,6 +376,7 @@ NAV
   }
   .container-half{
     width: 100%;
+    padding: 0 1px 0 2px;
   }
 }
 

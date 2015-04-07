@@ -45,8 +45,20 @@
               title: 'Pic 8'
             }
           ],
-          description: "I truly enjoy spending time with my family. It is important to me to watch my children grow up and be a part of their lives"
-
+          description: "I truly enjoy spending time with my family. Every Saturday we make it a point to spend time together these are some of the things we like to do ...",
+          links: [{
+            link:"http://www.thelivingplanet.com/index.php",
+            title: "The Living Planet Aquarium in Draper, UT"
+          }, {
+            link:"http://www.hoglezoo.org/",
+            title: "Hogle Zoo in Salt Lake City, UT"
+          },{
+            link:"http://www.rockcanyonutah.com/",
+            title: "Hiking in Rock Canyon, Provo UT"
+          },{
+            link:"http://www.provo.org/community/recreation-center",
+            title: "The Provo Recreation Center, Provo UT"
+          }]
         },{
         name: "Travel",
         slides: [{
@@ -59,15 +71,59 @@
             src: 'trav3.jpg',
             title: 'Pic 3'
           }],
-        description: "There are so many places I wish to visit and so little time"
+        description: "There are so many places I wish to visit and so little time some of which are ...",
+          links: [{
+            link:"http://www.tripadvisor.com/Tourism-g29220-Maui_Hawaii-Vacations.html",
+            title: "Maui, Hawaii"
+          }, {
+            link:"http://www.nationaltrust.org.uk/white-cliffs-dover/",
+            title: "The White Cliffs of Dover, England"
+          },{
+            link:"http://www.visitscotland.com/en-us/destinations-maps/highlands/",
+            title: "The Scottish Highlands, Scotland"
+          },{
+            link:"http://www.travelchinaguide.com/china_great_wall/",
+            title: "The Great Wall of China and ... China"
+          },{
+            link:"http://www.japan-guide.com/e/e3004.html",
+            title: "Asakusa, Japan"
+          },{
+            link:"http://travel.usnews.com/Rankings/Worlds_Best_Vacations/",
+            title: "And so much more."
+          }]
         },
         {
-          name: "Framing",
+          name: "Authors",
           slides: [{
               src: 'con1.jpg',
               title: 'Pic 1'
             }],
-          description: "When I am not building in the virtual world I enjoy working with my hands"
+          description: "One of my favorite pass times is reading these are some of the authors I highly recommend ...",
+          links: [{
+            link:"http://brandonsanderson.com/",
+            title: "Brandon Sanderson"
+          }, {
+            link:"http://www.petervbrett.com/",
+            title: "Peter V. Brett"
+          },{
+            link:"http://www.brentweeks.com/",
+            title: "Brent Weeks"
+          },{
+            link:"http://www.patrickrothfuss.com/content/index.asp",
+            title: "Patrick Rothfuss"
+          },{
+            link:"http://www.samsykes.com/",
+            title: "Sam Sykes"
+          },{
+            link:"http://www.robinhobb.com/",
+            title: "Robin Hobb"
+          },{
+            link:"http://authors.simonandschuster.com/Walter-Isaacson/697650",
+            title: "Walter Isaacson"
+          },{
+            link:"http://mykecole.com/",
+            title: "Myke Cole"
+          }]
         }
       ];
 
