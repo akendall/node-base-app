@@ -11,6 +11,7 @@ var bower = require('gulp-bower'),
     livereload = require('gulp-livereload');
 
 gulp.task('bower', function() {
+  debugger
   return bower()
   .pipe(gulp.dest('bower_components/'));
 });
